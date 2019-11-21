@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Maintenance"
+    },
+    {
+        "id": 3,
+        "name": "Informational"
+    },
+    {
+        "id": 2,
+        "name": "Outage"
+    },
+    {
+        "id": 4,
+        "name": "Service Affecting"
+    }
+]

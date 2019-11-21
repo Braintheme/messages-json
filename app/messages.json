@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "startDate": "2019-01-24T17:06:05+01:00",
+        "endDate": null,
+        "publishDate": "2019-01-24T17:00:44+01:00",
+        "expectedEndDate": null,
+        "title": "Maintenance at LON1 - 17:15",
+        "description": "Start Date: Thursday 24-Jan-2019 - 17:15 UTC\nDuration: 30 minutes\n\nThe Myra Infrastructre Team will be performing system maintenance. During this maintenance we do not expect any impact for customers.",
+        "status": "PUBLISHED",
+        "category": 1,
+        "updates": [
+            {
+                "date": "2019-01-24T17:30:00+01:00",
+                "description": "Maintenance done",
+                "status": "PUBLISHED"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "startDate": "2019-03-18T11:32:38+01:00",
+        "endDate": null,
+        "publishDate": "2019-03-18T11:30:01+01:00",
+        "expectedEndDate": null,
+        "title": "Update of the app backend",
+        "description": "Start Date: Monday 18-Mar-2019 - 11:45:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+        "status": "PUBLISHED",
+        "category": 3,
+        "updates": []
+    },
+    {
+        "id": 3,
+        "startDate": "2019-03-28T09:00:40+01:00",
+        "endDate": null,
+        "publishDate": "2019-03-28T09:00:01+01:00",
+        "expectedEndDate": null,
+        "title": "Update of the app backend432423",
+        "description": "Start Date: Monday 28-Mar-2019 - 09:30:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+        "status": "PUBLISHED",
+        "category": 3,
+        "updates": []
+	},
+	{
+        "id": 3,
+        "startDate": "2019-03-28T09:00:40+01:00",
+        "endDate": null,
+        "publishDate": "2019-03-28T09:00:01+01:00",
+        "expectedEndDate": null,
+        "title": "Update of the app backend",
+        "description": "Start Date: Monday 28-Mar-2019 - 09:30:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+        "status": "PUBLISHED",
+        "category": 3,
+        "updates": [] 
+	},
+	{
+        "id": 2,
+        "startDate": "2019-03-28T09:00:40+01:00",
+        "endDate": null,
+        "publishDate": "2019-03-28T09:00:01+01:00",
+        "expectedEndDate": null,
+        "title": "Update of the app backend23123123",
+        "description": "Start Date: Monday 28-Mar-2019 - 09:30:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+        "status": "PUBLISHED",
+        "category": 3,
+        "updates": []
+	},
+	{
+        "id": 4,
+        "startDate": "2019-03-28T09:00:40+01:00",
+        "endDate": null,
+        "publishDate": "2019-03-28T09:00:01+01:00",
+        "expectedEndDate": null,
+        "title": "Update of the app backend23123123",
+        "description": "Start Date: Monday 28-Mar-2019 - 09:30:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+        "status": "PUBLISHED",
+        "category": 3,
+        "updates": []
+	},
+	{
+        "id": 1,
+        "startDate": "2019-03-28T09:00:40+01:00",
+        "endDate": null,
+        "publishDate": "2019-03-28T09:00:01+01:00",
+        "expectedEndDate": null,
+        "title": "Update of the app backend11121221",
+        "description": "Start Date: Monday 28-Mar-2019 - 09:30:00 UTC\nDuration: 30 minutes\n\nThe Myra team will be performing an update of the app backend. We do not expect any impact for customers during the update procedure.",
+        "status": "PUBLISHED",
+        "category": 3,
+        "updates": []
+    }
+]

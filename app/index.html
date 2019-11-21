@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Messages with VUE</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header>
+	<div class="logo">MYRA - Status Page</div>
+</header>
+<div id="app">
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div id="categories">
+							<h3>Filter by:</h3>
+							<ul class="filter">
+								<li v-for="(cats, index) of categories">
+									<a 
+										@click="showMessages(cats.id); activeCat = cats.id" 
+										v-bind:class="{filter__active:activeCat == cats.id}" 
+										href="#">
+										{{ cats.name }}
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<h1>Status</h1>
+						<hr>
+						<template v-for="mess of messages">
+							<div class="message">
+								<div class="message--head">
+									<div class="message--head__case">Case ID: {{mess.id}}</div>
+									<div class="message--head__date">{{mess.publishDate}}</div>
+									<h2 class="message--head__title">{{mess.title}}</h2>
+									<hr>
+									<div class="message--head__start"><b>Start: </b>{{mess.startDate}}</div>
+								</div>
+								<div class="message--body">
+									<p>{{mess.description}}</p>
+								</div>
+							</div>
+						</template>
+					</div>
+				</div>
+			</div>
+</div>
+
+ 
+
+	<script src="libs/vue/vue.js" ></script>
+	<script src="libs/axios/axios.min.js" ></script>
+	<script src="js/main.js" ></script>
+</body>
+</html>
